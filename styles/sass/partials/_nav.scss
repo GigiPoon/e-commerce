@@ -1,11 +1,7 @@
-.annoucements {
+.announcements {
     padding: 10px 0;
     text-align: center;
-    border-bottom: 1px solid rgba(8, 75, 109, 0.08)
-}
-
-.slideOutNav {
-    display:none;
+    border-bottom: 1px solid rgba(8, 75, 109, 0.08);
 }
 
 .navBar {
@@ -14,7 +10,6 @@
     z-index: 10;
     border-bottom: 1px solid rgba(8, 75, 109, 0.08);
     background-color: $solidWhite;
-
     .wrapper {
         display: flex;
         justify-content: space-between;
@@ -45,11 +40,6 @@
             border-radius: 50%;
         }
     }
-}
-
-.navBar {
-    /* previous SCSS code here */
-
     input[type=checkbox] {
         opacity: 0;
         position: absolute;
@@ -93,11 +83,10 @@
         }
     }
     hr {
-        width:24px;
-        height:2px;
-        margin:36px 0;
+        width: 24px;
+        height: 2px;
+        margin: 36px 0;
         background-color: $solidWhite;
-        border: none;
     }
     .mainMenu {
         a {
@@ -128,5 +117,4 @@
             }
         }
     }
-
 }
